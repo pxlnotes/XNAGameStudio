@@ -22,6 +22,9 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+*.csproj.user
+.vs
+.vscode/
 
 # .NET Core
 project.lock.json
