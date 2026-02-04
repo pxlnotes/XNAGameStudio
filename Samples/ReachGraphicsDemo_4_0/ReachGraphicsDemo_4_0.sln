@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReachGraphicsDemo", "ReachGraphicsDemo\ReachGraphicsDemo\ReachGraphicsDemo.csproj", "{498BA498-87F3-4E0B-9D98-DB5FFBBD923B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReachGraphicsDemo.Content", "ReachGraphicsDemo\ReachGraphicsDemo.Content\ReachGraphicsDemo.Content.csproj", "{96BC9EB5-6943-43A5-873D-67B186864ACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "DataTypes\DataTypes.csproj", "{A2DAB564-8409-4899-B480-9E2D0083140F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentPipelineExtension", "ContentPipelineExtension\ContentPipelineExtension.csproj", "{9CB60B96-5525-4FA1-888C-5C4AFD472668}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{498BA498-87F3-4E0B-9D98-DB5FFBBD923B}.Debug|x86.ActiveCfg = Debug|x86
+		{498BA498-87F3-4E0B-9D98-DB5FFBBD923B}.Debug|x86.Build.0 = Debug|x86
+		{498BA498-87F3-4E0B-9D98-DB5FFBBD923B}.Release|x86.ActiveCfg = Release|x86
+		{498BA498-87F3-4E0B-9D98-DB5FFBBD923B}.Release|x86.Build.0 = Release|x86
+		{96BC9EB5-6943-43A5-873D-67B186864ACE}.Debug|x86.ActiveCfg = Debug|x86
+		{96BC9EB5-6943-43A5-873D-67B186864ACE}.Debug|x86.Build.0 = Debug|x86
+		{96BC9EB5-6943-43A5-873D-67B186864ACE}.Release|x86.ActiveCfg = Release|x86
+		{96BC9EB5-6943-43A5-873D-67B186864ACE}.Release|x86.Build.0 = Release|x86
+		{A2DAB564-8409-4899-B480-9E2D0083140F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A2DAB564-8409-4899-B480-9E2D0083140F}.Debug|x86.Build.0 = Debug|Any CPU
+		{A2DAB564-8409-4899-B480-9E2D0083140F}.Release|x86.ActiveCfg = Release|Any CPU
+		{A2DAB564-8409-4899-B480-9E2D0083140F}.Release|x86.Build.0 = Release|Any CPU
+		{9CB60B96-5525-4FA1-888C-5C4AFD472668}.Debug|x86.ActiveCfg = Debug|x86
+		{9CB60B96-5525-4FA1-888C-5C4AFD472668}.Debug|x86.Build.0 = Debug|x86
+		{9CB60B96-5525-4FA1-888C-5C4AFD472668}.Release|x86.ActiveCfg = Debug|x86
+		{9CB60B96-5525-4FA1-888C-5C4AFD472668}.Release|x86.Build.0 = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04CFDC64-5CEB-46E0-BD2E-31202271C94F}
+	EndGlobalSection
+EndGlobal

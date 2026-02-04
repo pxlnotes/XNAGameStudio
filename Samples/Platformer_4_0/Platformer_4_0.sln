@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platformer", "Platformer\Platformer\Platformer.csproj", "{2C9A15BC-C8F3-4490-9C4D-4722BF82B740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platformer.Content", "Platformer\Platformer.Content\Platformer.Content.csproj", "{6227F34A-447D-4E7A-8959-E286C49EF920}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C9A15BC-C8F3-4490-9C4D-4722BF82B740}.Debug|x86.ActiveCfg = Debug|x86
+		{2C9A15BC-C8F3-4490-9C4D-4722BF82B740}.Debug|x86.Build.0 = Debug|x86
+		{2C9A15BC-C8F3-4490-9C4D-4722BF82B740}.Release|x86.ActiveCfg = Release|x86
+		{2C9A15BC-C8F3-4490-9C4D-4722BF82B740}.Release|x86.Build.0 = Release|x86
+		{6227F34A-447D-4E7A-8959-E286C49EF920}.Debug|x86.ActiveCfg = Debug|x86
+		{6227F34A-447D-4E7A-8959-E286C49EF920}.Debug|x86.Build.0 = Debug|x86
+		{6227F34A-447D-4E7A-8959-E286C49EF920}.Release|x86.ActiveCfg = Release|x86
+		{6227F34A-447D-4E7A-8959-E286C49EF920}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BC27F5E-C8F1-4E51-A6AE-C58D9C8134D1}
+	EndGlobalSection
+EndGlobal

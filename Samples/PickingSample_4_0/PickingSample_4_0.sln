@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Picking", "Picking\Picking\Picking.csproj", "{4ACB6D46-8362-4E16-A393-5F216B4ED505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Picking.Content", "Picking\Picking.Content\Picking.Content.csproj", "{D0FC7CC9-48A6-4783-B211-3E66659F6C0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ACB6D46-8362-4E16-A393-5F216B4ED505}.Debug|x86.ActiveCfg = Debug|x86
+		{4ACB6D46-8362-4E16-A393-5F216B4ED505}.Debug|x86.Build.0 = Debug|x86
+		{4ACB6D46-8362-4E16-A393-5F216B4ED505}.Release|x86.ActiveCfg = Release|x86
+		{4ACB6D46-8362-4E16-A393-5F216B4ED505}.Release|x86.Build.0 = Release|x86
+		{D0FC7CC9-48A6-4783-B211-3E66659F6C0D}.Debug|x86.ActiveCfg = Debug|x86
+		{D0FC7CC9-48A6-4783-B211-3E66659F6C0D}.Debug|x86.Build.0 = Debug|x86
+		{D0FC7CC9-48A6-4783-B211-3E66659F6C0D}.Release|x86.ActiveCfg = Release|x86
+		{D0FC7CC9-48A6-4783-B211-3E66659F6C0D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2957F2C8-31C9-43B5-AD22-EB7399EA4AAA}
+	EndGlobalSection
+EndGlobal

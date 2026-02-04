@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pathfinding", "Pathfinding\Pathfinding\Pathfinding.csproj", "{97766B1E-C7E7-49F4-B7F8-C32D985665F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pathfinding.Content", "Pathfinding\Pathfinding.Content\Pathfinding.Content.csproj", "{531152AD-3D9E-4393-B29D-624C6042C37F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathfindingData", "MapData\PathfindingData.csproj", "{F7064B3B-0470-4BAF-AE4A-9CA2247B2220}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97766B1E-C7E7-49F4-B7F8-C32D985665F6}.Debug|x86.ActiveCfg = Debug|x86
+		{97766B1E-C7E7-49F4-B7F8-C32D985665F6}.Debug|x86.Build.0 = Debug|x86
+		{97766B1E-C7E7-49F4-B7F8-C32D985665F6}.Release|x86.ActiveCfg = Release|x86
+		{97766B1E-C7E7-49F4-B7F8-C32D985665F6}.Release|x86.Build.0 = Release|x86
+		{531152AD-3D9E-4393-B29D-624C6042C37F}.Debug|x86.ActiveCfg = Debug|x86
+		{531152AD-3D9E-4393-B29D-624C6042C37F}.Debug|x86.Build.0 = Debug|x86
+		{531152AD-3D9E-4393-B29D-624C6042C37F}.Release|x86.ActiveCfg = Release|x86
+		{531152AD-3D9E-4393-B29D-624C6042C37F}.Release|x86.Build.0 = Release|x86
+		{F7064B3B-0470-4BAF-AE4A-9CA2247B2220}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F7064B3B-0470-4BAF-AE4A-9CA2247B2220}.Debug|x86.Build.0 = Debug|Any CPU
+		{F7064B3B-0470-4BAF-AE4A-9CA2247B2220}.Release|x86.ActiveCfg = Release|Any CPU
+		{F7064B3B-0470-4BAF-AE4A-9CA2247B2220}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2A3A1A0-7158-43D3-BB3D-29631D0860B6}
+	EndGlobalSection
+EndGlobal

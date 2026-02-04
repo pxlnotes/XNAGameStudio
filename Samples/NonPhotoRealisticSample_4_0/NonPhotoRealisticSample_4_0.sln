@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonPhotoRealistic", "NonPhotoRealistic\NonPhotoRealistic\NonPhotoRealistic.csproj", "{9F59AC1B-A1F3-4D2C-8692-F8377F87DC44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonPhotoRealistic.Content", "NonPhotoRealistic\NonPhotoRealistic.Content\NonPhotoRealistic.Content.csproj", "{29A38403-9A33-41AA-9172-97D0F43D4D14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F59AC1B-A1F3-4D2C-8692-F8377F87DC44}.Debug|x86.ActiveCfg = Debug|x86
+		{9F59AC1B-A1F3-4D2C-8692-F8377F87DC44}.Debug|x86.Build.0 = Debug|x86
+		{9F59AC1B-A1F3-4D2C-8692-F8377F87DC44}.Release|x86.ActiveCfg = Release|x86
+		{9F59AC1B-A1F3-4D2C-8692-F8377F87DC44}.Release|x86.Build.0 = Release|x86
+		{29A38403-9A33-41AA-9172-97D0F43D4D14}.Debug|x86.ActiveCfg = Debug|x86
+		{29A38403-9A33-41AA-9172-97D0F43D4D14}.Debug|x86.Build.0 = Debug|x86
+		{29A38403-9A33-41AA-9172-97D0F43D4D14}.Release|x86.ActiveCfg = Release|x86
+		{29A38403-9A33-41AA-9172-97D0F43D4D14}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A3BC3BC-A8A7-4EBC-86AE-D4062B03B3D5}
+	EndGlobalSection
+EndGlobal

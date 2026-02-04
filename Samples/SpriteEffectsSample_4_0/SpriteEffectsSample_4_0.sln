@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpriteEffects", "SpriteEffects\SpriteEffects\SpriteEffects.csproj", "{EA5485AA-9233-429A-B84F-D5CDA29FE188}"
+	ProjectSection(ProjectDependencies) = postProject
+		{466C925C-4BFE-49E8-ADFA-ADAE1B9E2B12} = {466C925C-4BFE-49E8-ADFA-ADAE1B9E2B12}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpriteEffects.Content", "SpriteEffects\SpriteEffects.Content\SpriteEffects.Content.csproj", "{6E19E7B5-9485-4123-8426-01986CD4C406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpriteEffectsPipeline", "SpriteEffectsPipeline\SpriteEffectsPipeline.csproj", "{466C925C-4BFE-49E8-ADFA-ADAE1B9E2B12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA5485AA-9233-429A-B84F-D5CDA29FE188}.Debug|x86.ActiveCfg = Debug|x86
+		{EA5485AA-9233-429A-B84F-D5CDA29FE188}.Debug|x86.Build.0 = Debug|x86
+		{EA5485AA-9233-429A-B84F-D5CDA29FE188}.Release|x86.ActiveCfg = Release|x86
+		{EA5485AA-9233-429A-B84F-D5CDA29FE188}.Release|x86.Build.0 = Release|x86
+		{6E19E7B5-9485-4123-8426-01986CD4C406}.Debug|x86.ActiveCfg = Debug|x86
+		{6E19E7B5-9485-4123-8426-01986CD4C406}.Debug|x86.Build.0 = Debug|x86
+		{6E19E7B5-9485-4123-8426-01986CD4C406}.Release|x86.ActiveCfg = Release|x86
+		{6E19E7B5-9485-4123-8426-01986CD4C406}.Release|x86.Build.0 = Release|x86
+		{466C925C-4BFE-49E8-ADFA-ADAE1B9E2B12}.Debug|x86.ActiveCfg = Debug|x86
+		{466C925C-4BFE-49E8-ADFA-ADAE1B9E2B12}.Debug|x86.Build.0 = Debug|x86
+		{466C925C-4BFE-49E8-ADFA-ADAE1B9E2B12}.Release|x86.ActiveCfg = Release|x86
+		{466C925C-4BFE-49E8-ADFA-ADAE1B9E2B12}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3947156A-7798-4A2D-9D49-97B44FF558E0}
+	EndGlobalSection
+EndGlobal

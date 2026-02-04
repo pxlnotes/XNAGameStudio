@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RolePlayingGame", "RolePlayingGame\RolePlayingGame\RolePlayingGame.csproj", "{01323435-F932-47C3-A2BA-DCBBE6EDAB55}"
+	ProjectSection(ProjectDependencies) = postProject
+		{56DEF50B-FCB8-41F1-98D6-D9ADA52A1417} = {56DEF50B-FCB8-41F1-98D6-D9ADA52A1417}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RolePlayingGame.Content", "RolePlayingGame\RolePlayingGame.Content\RolePlayingGame.Content.csproj", "{CDA1B542-28B3-45B1-8E5C-37EB51F4638C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RolePlayingGameData", "RolePlayingGameData\RolePlayingGameData.csproj", "{80766A7B-6BA0-4726-B292-E5C7A6A315F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RolePlayingGameProcessors", "RolePlayingGameProcessors\RolePlayingGameProcessors.csproj", "{56DEF50B-FCB8-41F1-98D6-D9ADA52A1417}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01323435-F932-47C3-A2BA-DCBBE6EDAB55}.Debug|x86.ActiveCfg = Debug|x86
+		{01323435-F932-47C3-A2BA-DCBBE6EDAB55}.Debug|x86.Build.0 = Debug|x86
+		{01323435-F932-47C3-A2BA-DCBBE6EDAB55}.Release|x86.ActiveCfg = Release|x86
+		{01323435-F932-47C3-A2BA-DCBBE6EDAB55}.Release|x86.Build.0 = Release|x86
+		{CDA1B542-28B3-45B1-8E5C-37EB51F4638C}.Debug|x86.ActiveCfg = Debug|x86
+		{CDA1B542-28B3-45B1-8E5C-37EB51F4638C}.Debug|x86.Build.0 = Debug|x86
+		{CDA1B542-28B3-45B1-8E5C-37EB51F4638C}.Release|x86.ActiveCfg = Release|x86
+		{CDA1B542-28B3-45B1-8E5C-37EB51F4638C}.Release|x86.Build.0 = Release|x86
+		{80766A7B-6BA0-4726-B292-E5C7A6A315F6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{80766A7B-6BA0-4726-B292-E5C7A6A315F6}.Debug|x86.Build.0 = Debug|Any CPU
+		{80766A7B-6BA0-4726-B292-E5C7A6A315F6}.Release|x86.ActiveCfg = Release|Any CPU
+		{80766A7B-6BA0-4726-B292-E5C7A6A315F6}.Release|x86.Build.0 = Release|Any CPU
+		{56DEF50B-FCB8-41F1-98D6-D9ADA52A1417}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{56DEF50B-FCB8-41F1-98D6-D9ADA52A1417}.Debug|x86.Build.0 = Debug|Any CPU
+		{56DEF50B-FCB8-41F1-98D6-D9ADA52A1417}.Release|x86.ActiveCfg = Release|Any CPU
+		{56DEF50B-FCB8-41F1-98D6-D9ADA52A1417}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07A769BE-1204-4B83-9AE7-881F795F3987}
+	EndGlobalSection
+EndGlobal

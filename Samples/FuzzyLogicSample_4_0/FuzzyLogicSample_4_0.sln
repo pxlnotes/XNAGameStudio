@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzyLogic", "FuzzyLogic\FuzzyLogic\FuzzyLogic.csproj", "{C43E433A-2FD5-4F72-A26B-54607371A622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzyLogic.Content", "FuzzyLogic\FuzzyLogic.Content\FuzzyLogic.Content.csproj", "{D9CDDAC7-DDF0-49DB-BC48-50BFEDDF9CA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C43E433A-2FD5-4F72-A26B-54607371A622}.Debug|x86.ActiveCfg = Debug|x86
+		{C43E433A-2FD5-4F72-A26B-54607371A622}.Debug|x86.Build.0 = Debug|x86
+		{C43E433A-2FD5-4F72-A26B-54607371A622}.Release|x86.ActiveCfg = Release|x86
+		{C43E433A-2FD5-4F72-A26B-54607371A622}.Release|x86.Build.0 = Release|x86
+		{D9CDDAC7-DDF0-49DB-BC48-50BFEDDF9CA6}.Debug|x86.ActiveCfg = Debug|x86
+		{D9CDDAC7-DDF0-49DB-BC48-50BFEDDF9CA6}.Debug|x86.Build.0 = Debug|x86
+		{D9CDDAC7-DDF0-49DB-BC48-50BFEDDF9CA6}.Release|x86.ActiveCfg = Release|x86
+		{D9CDDAC7-DDF0-49DB-BC48-50BFEDDF9CA6}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA44E69F-62A4-477A-A3D6-47C872B8DCB1}
+	EndGlobalSection
+EndGlobal

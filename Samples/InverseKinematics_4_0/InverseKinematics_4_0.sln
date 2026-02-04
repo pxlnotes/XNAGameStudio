@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InverseKinematics", "InverseKinematics\InverseKinematics\InverseKinematics.csproj", "{DB747D61-4A2D-4A79-8518-D5EFB9DC952F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InverseKinematics.Content", "InverseKinematics\InverseKinematics.Content\InverseKinematics.Content.csproj", "{BB637A49-3C4D-403D-860E-E36CCC4970D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB747D61-4A2D-4A79-8518-D5EFB9DC952F}.Debug|x86.ActiveCfg = Debug|x86
+		{DB747D61-4A2D-4A79-8518-D5EFB9DC952F}.Debug|x86.Build.0 = Debug|x86
+		{DB747D61-4A2D-4A79-8518-D5EFB9DC952F}.Release|x86.ActiveCfg = Release|x86
+		{DB747D61-4A2D-4A79-8518-D5EFB9DC952F}.Release|x86.Build.0 = Release|x86
+		{BB637A49-3C4D-403D-860E-E36CCC4970D0}.Debug|x86.ActiveCfg = Debug|x86
+		{BB637A49-3C4D-403D-860E-E36CCC4970D0}.Debug|x86.Build.0 = Debug|x86
+		{BB637A49-3C4D-403D-860E-E36CCC4970D0}.Release|x86.ActiveCfg = Release|x86
+		{BB637A49-3C4D-403D-860E-E36CCC4970D0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61214848-5AA4-49BE-A90D-771DDD8382C4}
+	EndGlobalSection
+EndGlobal

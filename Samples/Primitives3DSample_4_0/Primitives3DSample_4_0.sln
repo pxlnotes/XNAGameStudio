@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primitives3D", "Primitives3D\Primitives3D\Primitives3D.csproj", "{E180FFBF-5C4A-42C8-A1E0-F36993B4B577}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Primitives3D.Content", "Primitives3D\Primitives3D.Content\Primitives3D.Content.csproj", "{F9504222-1A25-4351-8DC0-B01CA8FF1732}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E180FFBF-5C4A-42C8-A1E0-F36993B4B577}.Debug|x86.ActiveCfg = Debug|x86
+		{E180FFBF-5C4A-42C8-A1E0-F36993B4B577}.Debug|x86.Build.0 = Debug|x86
+		{E180FFBF-5C4A-42C8-A1E0-F36993B4B577}.Release|x86.ActiveCfg = Release|x86
+		{E180FFBF-5C4A-42C8-A1E0-F36993B4B577}.Release|x86.Build.0 = Release|x86
+		{F9504222-1A25-4351-8DC0-B01CA8FF1732}.Debug|x86.ActiveCfg = Debug|x86
+		{F9504222-1A25-4351-8DC0-B01CA8FF1732}.Debug|x86.Build.0 = Debug|x86
+		{F9504222-1A25-4351-8DC0-B01CA8FF1732}.Release|x86.ActiveCfg = Release|x86
+		{F9504222-1A25-4351-8DC0-B01CA8FF1732}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C214CD2-496B-4649-BFD7-32BB0A2DCB26}
+	EndGlobalSection
+EndGlobal

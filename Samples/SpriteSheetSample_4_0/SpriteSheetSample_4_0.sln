@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpriteSheetSample", "SpriteSheetSample\SpriteSheetSample\SpriteSheetSample.csproj", "{974319C1-3D12-4EED-AD15-74A6C1B69BBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpriteSheetSample.Content", "SpriteSheetSample\SpriteSheetSample.Content\SpriteSheetSample.Content.csproj", "{8BCBD28F-78AA-4CA1-AB92-1CB18E95B4CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpriteSheetPipeline", "SpriteSheetPipeline\SpriteSheetPipeline.csproj", "{25146084-89AA-4A55-8D32-E237CBA223C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpriteSheetRuntime", "SpriteSheetRuntime\SpriteSheetRuntime.csproj", "{10F0EE02-F705-453D-8F15-403375D2751D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{974319C1-3D12-4EED-AD15-74A6C1B69BBA}.Debug|x86.ActiveCfg = Debug|x86
+		{974319C1-3D12-4EED-AD15-74A6C1B69BBA}.Debug|x86.Build.0 = Debug|x86
+		{974319C1-3D12-4EED-AD15-74A6C1B69BBA}.Release|x86.ActiveCfg = Release|x86
+		{974319C1-3D12-4EED-AD15-74A6C1B69BBA}.Release|x86.Build.0 = Release|x86
+		{8BCBD28F-78AA-4CA1-AB92-1CB18E95B4CD}.Debug|x86.ActiveCfg = Debug|x86
+		{8BCBD28F-78AA-4CA1-AB92-1CB18E95B4CD}.Debug|x86.Build.0 = Debug|x86
+		{8BCBD28F-78AA-4CA1-AB92-1CB18E95B4CD}.Release|x86.ActiveCfg = Release|x86
+		{8BCBD28F-78AA-4CA1-AB92-1CB18E95B4CD}.Release|x86.Build.0 = Release|x86
+		{25146084-89AA-4A55-8D32-E237CBA223C0}.Debug|x86.ActiveCfg = Debug|x86
+		{25146084-89AA-4A55-8D32-E237CBA223C0}.Debug|x86.Build.0 = Debug|x86
+		{25146084-89AA-4A55-8D32-E237CBA223C0}.Release|x86.ActiveCfg = Debug|x86
+		{25146084-89AA-4A55-8D32-E237CBA223C0}.Release|x86.Build.0 = Debug|x86
+		{10F0EE02-F705-453D-8F15-403375D2751D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{10F0EE02-F705-453D-8F15-403375D2751D}.Debug|x86.Build.0 = Debug|Any CPU
+		{10F0EE02-F705-453D-8F15-403375D2751D}.Release|x86.ActiveCfg = Release|Any CPU
+		{10F0EE02-F705-453D-8F15-403375D2751D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {483AE2C6-586D-4016-B25A-1FDAF89C5335}
+	EndGlobalSection
+EndGlobal

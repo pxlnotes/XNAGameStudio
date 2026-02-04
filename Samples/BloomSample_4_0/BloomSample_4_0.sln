@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloomPostprocess.Content", "BloomPostprocess\BloomPostprocess.Content\BloomPostprocess.Content.csproj", "{D7EBDA0B-49D3-4B6C-A7D3-5E4AA2C5ECAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloomPostprocess", "BloomPostprocess\BloomPostprocess\BloomPostprocess.csproj", "{0CA9A770-92EC-46E5-B32F-A4AED59A772A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7EBDA0B-49D3-4B6C-A7D3-5E4AA2C5ECAE}.Debug|x86.ActiveCfg = Debug|x86
+		{D7EBDA0B-49D3-4B6C-A7D3-5E4AA2C5ECAE}.Debug|x86.Build.0 = Debug|x86
+		{D7EBDA0B-49D3-4B6C-A7D3-5E4AA2C5ECAE}.Release|x86.ActiveCfg = Release|x86
+		{D7EBDA0B-49D3-4B6C-A7D3-5E4AA2C5ECAE}.Release|x86.Build.0 = Release|x86
+		{0CA9A770-92EC-46E5-B32F-A4AED59A772A}.Debug|x86.ActiveCfg = Debug|x86
+		{0CA9A770-92EC-46E5-B32F-A4AED59A772A}.Debug|x86.Build.0 = Debug|x86
+		{0CA9A770-92EC-46E5-B32F-A4AED59A772A}.Release|x86.ActiveCfg = Release|x86
+		{0CA9A770-92EC-46E5-B32F-A4AED59A772A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B298A256-3051-47C4-856D-1BCF216CD607}
+	EndGlobalSection
+EndGlobal

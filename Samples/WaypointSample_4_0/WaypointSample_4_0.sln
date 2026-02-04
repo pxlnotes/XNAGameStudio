@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Waypoints", "Waypoints\Waypoints\Waypoints.csproj", "{906E0F71-DEB1-4D0E-8896-28AD9C1EB06D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Waypoints.Content", "Waypoints\Waypoints.Content\Waypoints.Content.csproj", "{9FE62025-5BF3-45D4-B335-CC332EE0A2AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{906E0F71-DEB1-4D0E-8896-28AD9C1EB06D}.Debug|x86.ActiveCfg = Debug|x86
+		{906E0F71-DEB1-4D0E-8896-28AD9C1EB06D}.Debug|x86.Build.0 = Debug|x86
+		{906E0F71-DEB1-4D0E-8896-28AD9C1EB06D}.Release|x86.ActiveCfg = Release|x86
+		{906E0F71-DEB1-4D0E-8896-28AD9C1EB06D}.Release|x86.Build.0 = Release|x86
+		{9FE62025-5BF3-45D4-B335-CC332EE0A2AA}.Debug|x86.ActiveCfg = Debug|x86
+		{9FE62025-5BF3-45D4-B335-CC332EE0A2AA}.Debug|x86.Build.0 = Debug|x86
+		{9FE62025-5BF3-45D4-B335-CC332EE0A2AA}.Release|x86.ActiveCfg = Release|x86
+		{9FE62025-5BF3-45D4-B335-CC332EE0A2AA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B92E2539-225C-4853-A804-7B2FF17067D0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Audio3D", "Audio3D\Audio3D\Audio3D.csproj", "{5A318282-08DE-4567-9262-E1A54F800F8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Audio3D.Content", "Audio3D\Audio3D.Content\Audio3D.Content.csproj", "{365F7D1A-31A9-43FE-9D38-07676D59A894}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A318282-08DE-4567-9262-E1A54F800F8B}.Debug|x86.ActiveCfg = Debug|x86
+		{5A318282-08DE-4567-9262-E1A54F800F8B}.Debug|x86.Build.0 = Debug|x86
+		{5A318282-08DE-4567-9262-E1A54F800F8B}.Release|x86.ActiveCfg = Release|x86
+		{5A318282-08DE-4567-9262-E1A54F800F8B}.Release|x86.Build.0 = Release|x86
+		{365F7D1A-31A9-43FE-9D38-07676D59A894}.Debug|x86.ActiveCfg = Debug|x86
+		{365F7D1A-31A9-43FE-9D38-07676D59A894}.Debug|x86.Build.0 = Debug|x86
+		{365F7D1A-31A9-43FE-9D38-07676D59A894}.Release|x86.ActiveCfg = Release|x86
+		{365F7D1A-31A9-43FE-9D38-07676D59A894}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BD3E1AA-A1F2-49D8-AD9D-6F00F88250FF}
+	EndGlobalSection
+EndGlobal

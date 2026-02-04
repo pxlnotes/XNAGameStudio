@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RacingGame", "RacingGame\RacingGame\RacingGame.csproj", "{6A2D73A7-EDD1-47BC-9B36-8DFB2749A88E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F7783DA3-EE53-4218-8E06-4ED4F357480E} = {F7783DA3-EE53-4218-8E06-4ED4F357480E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RacingGame.Content", "RacingGame\RacingGame.Content\RacingGame.Content.csproj", "{EAE054BD-159D-4979-BBE5-B11EFA899E8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RacingGameContentPipelineExtension", "RacingGameContentPipelineExtension\RacingGameContentPipelineExtension.csproj", "{F7783DA3-EE53-4218-8E06-4ED4F357480E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A2D73A7-EDD1-47BC-9B36-8DFB2749A88E}.Debug|x86.ActiveCfg = Debug|x86
+		{6A2D73A7-EDD1-47BC-9B36-8DFB2749A88E}.Debug|x86.Build.0 = Debug|x86
+		{6A2D73A7-EDD1-47BC-9B36-8DFB2749A88E}.Release|x86.ActiveCfg = Release|x86
+		{6A2D73A7-EDD1-47BC-9B36-8DFB2749A88E}.Release|x86.Build.0 = Release|x86
+		{EAE054BD-159D-4979-BBE5-B11EFA899E8B}.Debug|x86.ActiveCfg = Debug|x86
+		{EAE054BD-159D-4979-BBE5-B11EFA899E8B}.Debug|x86.Build.0 = Debug|x86
+		{EAE054BD-159D-4979-BBE5-B11EFA899E8B}.Release|x86.ActiveCfg = Release|x86
+		{EAE054BD-159D-4979-BBE5-B11EFA899E8B}.Release|x86.Build.0 = Release|x86
+		{F7783DA3-EE53-4218-8E06-4ED4F357480E}.Debug|x86.ActiveCfg = Debug|x86
+		{F7783DA3-EE53-4218-8E06-4ED4F357480E}.Debug|x86.Build.0 = Debug|x86
+		{F7783DA3-EE53-4218-8E06-4ED4F357480E}.Release|x86.ActiveCfg = Debug|x86
+		{F7783DA3-EE53-4218-8E06-4ED4F357480E}.Release|x86.Build.0 = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBFA0575-EC3C-4AD3-BA5B-C27AEC7D35A8}
+	EndGlobalSection
+EndGlobal

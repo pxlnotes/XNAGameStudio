@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{ECE82C5E-FEB1-45E6-A132-02BC4A55E915}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VectorRumble</RootNamespace>
+    <AssemblyName>VectorRumble</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <PlatformTarget>x86</PlatformTarget>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <Thumbnail>GameThumbnail.png</Thumbnail>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINDOWS</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <Target Name="RunToolAfterBuild" AfterTargets="Build">
+    <MSBuild Projects="..\VectorRumble.Content\VectorRumble.Content.csproj" Targets="Build" Properties="Configuration=$(Configuration);Platform=$(Platform)" />
+    <PropertyGroup>
+      <MainAppBinDir>$([System.IO.Path]::GetDirectoryName('$(TargetPath)'))</MainAppBinDir>
+    </PropertyGroup>
+    <Exec Command="&quot;$(MSBuildProjectDirectory)\..\VectorRumble.Content\bin\$(Platform)\$(Configuration)\net481\Content.exe" />
+  </Target>
+  <Target Name="CopyOnlyXnbFiles" AfterTargets="Build">
+    <ItemGroup>
+      <XnbFiles Include="..\VectorRumble.Content\bin\$(Platform)\$(Configuration)\net481\Content\**\*.*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(XnbFiles)" DestinationFolder="$(TargetDir)Content\%(RecursiveDir)" SkipUnchangedFiles="true" />
+  </Target>
+  <ItemGroup>
+    <Compile Include="AudioManager.cs" />
+    <Compile Include="BloomPostprocess\BloomComponent.cs" />
+    <Compile Include="BloomPostprocess\BloomSettings.cs" />
+    <Compile Include="CollectCollection.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="Gameplay\Asteroid.cs" />
+    <Compile Include="Gameplay\DoubleLaserPowerUp.cs" />
+    <Compile Include="Gameplay\DoubleLaserWeapon.cs" />
+    <Compile Include="Gameplay\LaserProjectile.cs" />
+    <Compile Include="Gameplay\LaserWeapon.cs" />
+    <Compile Include="Gameplay\MineProjectile.cs" />
+    <Compile Include="Gameplay\MineWeapon.cs" />
+    <Compile Include="Gameplay\RocketPowerUp.cs" />
+    <Compile Include="Gameplay\RocketProjectile.cs" />
+    <Compile Include="Gameplay\RocketWeapon.cs" />
+    <Compile Include="Gameplay\Ship.cs" />
+    <Compile Include="Gameplay\TripleLaserPowerUp.cs" />
+    <Compile Include="Gameplay\TripleLaserWeapon.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rendering\LineBatch.cs" />
+    <Compile Include="Rendering\Particle.cs" />
+    <Compile Include="Rendering\ParticleSystem.cs" />
+    <Compile Include="Rendering\Starfield.cs" />
+    <Compile Include="Rendering\VectorPolygon.cs" />
+    <Compile Include="ScreenManager\GameScreen.cs" />
+    <Compile Include="ScreenManager\InputState.cs" />
+    <Compile Include="ScreenManager\ScreenManager.cs" />
+    <Compile Include="Screens\BackgroundScreen.cs" />
+    <Compile Include="Screens\GameOverScreen.cs" />
+    <Compile Include="Screens\GameplayScreen.cs" />
+    <Compile Include="Screens\LoadingScreen.cs" />
+    <Compile Include="Screens\MainMenuScreen.cs" />
+    <Compile Include="Screens\MenuEntry.cs" />
+    <Compile Include="Screens\MenuScreen.cs" />
+    <Compile Include="Screens\MessageBoxScreen.cs" />
+    <Compile Include="Screens\OptionsMenuScreen.cs" />
+    <Compile Include="Screens\PauseMenuScreen.cs" />
+    <Compile Include="Simulation\Actor.cs" />
+    <Compile Include="Simulation\Collision.cs" />
+    <Compile Include="Simulation\CollisionResult.cs" />
+    <Compile Include="Simulation\PowerUp.cs" />
+    <Compile Include="Simulation\Projectile.cs" />
+    <Compile Include="Simulation\Weapon.cs" />
+    <Compile Include="Simulation\World.cs" />
+    <Compile Include="Simulation\WorldActor.cs" />
+    <Compile Include="Simulation\WorldRules.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Storage.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Xact.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\v4.0\Microsoft.Xna.GameStudio.CSharp.targets" />
+</Project>

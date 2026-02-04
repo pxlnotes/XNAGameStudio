@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipassLighting", "MultipassLighting\MultipassLighting\MultipassLighting.csproj", "{206ED186-7205-48CB-A96A-89221D5B3488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipassLighting.Content", "MultipassLighting\MultipassLighting.Content\MultipassLighting.Content.csproj", "{73BDB801-72FB-454A-B06C-C238710D7FAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{206ED186-7205-48CB-A96A-89221D5B3488}.Debug|x86.ActiveCfg = Debug|x86
+		{206ED186-7205-48CB-A96A-89221D5B3488}.Debug|x86.Build.0 = Debug|x86
+		{206ED186-7205-48CB-A96A-89221D5B3488}.Release|x86.ActiveCfg = Release|x86
+		{206ED186-7205-48CB-A96A-89221D5B3488}.Release|x86.Build.0 = Release|x86
+		{73BDB801-72FB-454A-B06C-C238710D7FAB}.Debug|x86.ActiveCfg = Debug|x86
+		{73BDB801-72FB-454A-B06C-C238710D7FAB}.Debug|x86.Build.0 = Debug|x86
+		{73BDB801-72FB-454A-B06C-C238710D7FAB}.Release|x86.ActiveCfg = Release|x86
+		{73BDB801-72FB-454A-B06C-C238710D7FAB}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21DDACD1-A2BE-4D24-A1A3-6BA27C3A7569}
+	EndGlobalSection
+EndGlobal

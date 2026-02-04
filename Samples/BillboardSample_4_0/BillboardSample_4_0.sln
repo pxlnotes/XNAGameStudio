@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Billboard", "Billboard\Billboard\Billboard.csproj", "{42154E2A-1E65-4B42-A650-264466EE9815}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0EB3B2B1-33E8-4A58-9B4F-0175951D043C} = {0EB3B2B1-33E8-4A58-9B4F-0175951D043C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Billboard.Content", "Billboard\Billboard.Content\Billboard.Content.csproj", "{6530613F-34DA-479D-9DA1-EFB3A910B0E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillboardPipeline", "BillboardPipeline\BillboardPipeline.csproj", "{0EB3B2B1-33E8-4A58-9B4F-0175951D043C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42154E2A-1E65-4B42-A650-264466EE9815}.Debug|x86.ActiveCfg = Debug|x86
+		{42154E2A-1E65-4B42-A650-264466EE9815}.Debug|x86.Build.0 = Debug|x86
+		{42154E2A-1E65-4B42-A650-264466EE9815}.Release|x86.ActiveCfg = Release|x86
+		{42154E2A-1E65-4B42-A650-264466EE9815}.Release|x86.Build.0 = Release|x86
+		{6530613F-34DA-479D-9DA1-EFB3A910B0E7}.Debug|x86.ActiveCfg = Debug|x86
+		{6530613F-34DA-479D-9DA1-EFB3A910B0E7}.Debug|x86.Build.0 = Debug|x86
+		{6530613F-34DA-479D-9DA1-EFB3A910B0E7}.Release|x86.ActiveCfg = Release|x86
+		{6530613F-34DA-479D-9DA1-EFB3A910B0E7}.Release|x86.Build.0 = Release|x86
+		{0EB3B2B1-33E8-4A58-9B4F-0175951D043C}.Debug|x86.ActiveCfg = Debug|x86
+		{0EB3B2B1-33E8-4A58-9B4F-0175951D043C}.Debug|x86.Build.0 = Debug|x86
+		{0EB3B2B1-33E8-4A58-9B4F-0175951D043C}.Release|x86.ActiveCfg = Release|x86
+		{0EB3B2B1-33E8-4A58-9B4F-0175951D043C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF1F2C22-DB60-4DCE-A52B-31E5F2B9AA5B}
+	EndGlobalSection
+EndGlobal

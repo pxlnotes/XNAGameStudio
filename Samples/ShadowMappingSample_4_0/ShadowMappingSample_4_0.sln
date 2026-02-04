@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadowMapping", "ShadowMapping\ShadowMapping\ShadowMapping.csproj", "{04F91C90-530C-4B83-B033-558B4B1EF8A5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{54478695-083C-4AD4-B10A-08179B1E7E58} = {54478695-083C-4AD4-B10A-08179B1E7E58}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadowMapping.Content", "ShadowMapping\ShadowMapping.Content\ShadowMapping.Content.csproj", "{6BEA5405-3512-40D9-894F-E556B35B2BE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEffectPipeline", "CustomEffectPipeline\CustomEffectPipeline.csproj", "{54478695-083C-4AD4-B10A-08179B1E7E58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04F91C90-530C-4B83-B033-558B4B1EF8A5}.Debug|x86.ActiveCfg = Debug|x86
+		{04F91C90-530C-4B83-B033-558B4B1EF8A5}.Debug|x86.Build.0 = Debug|x86
+		{04F91C90-530C-4B83-B033-558B4B1EF8A5}.Release|x86.ActiveCfg = Release|x86
+		{04F91C90-530C-4B83-B033-558B4B1EF8A5}.Release|x86.Build.0 = Release|x86
+		{6BEA5405-3512-40D9-894F-E556B35B2BE9}.Debug|x86.ActiveCfg = Debug|x86
+		{6BEA5405-3512-40D9-894F-E556B35B2BE9}.Debug|x86.Build.0 = Debug|x86
+		{6BEA5405-3512-40D9-894F-E556B35B2BE9}.Release|x86.ActiveCfg = Release|x86
+		{6BEA5405-3512-40D9-894F-E556B35B2BE9}.Release|x86.Build.0 = Release|x86
+		{54478695-083C-4AD4-B10A-08179B1E7E58}.Debug|x86.ActiveCfg = Debug|x86
+		{54478695-083C-4AD4-B10A-08179B1E7E58}.Debug|x86.Build.0 = Debug|x86
+		{54478695-083C-4AD4-B10A-08179B1E7E58}.Release|x86.ActiveCfg = Release|x86
+		{54478695-083C-4AD4-B10A-08179B1E7E58}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBEA7021-DEEC-4616-A0AD-77D593FD7FFB}
+	EndGlobalSection
+EndGlobal

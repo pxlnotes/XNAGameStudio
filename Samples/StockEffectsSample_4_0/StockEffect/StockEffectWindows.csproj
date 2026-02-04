@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6AB705EB-0885-4FA2-AA50-C4B878CB0270}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StockEffectWindows</RootNamespace>
+    <AssemblyName>StockEffectWindows</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="C#\AlphaTestEffect.cs" />
+    <Compile Include="C#\BasicEffect.cs" />
+    <Compile Include="C#\DualTextureEffect.cs" />
+    <Compile Include="C#\EffectHelpers.cs" />
+    <Compile Include="C#\EnvironmentMapEffect.cs" />
+    <Compile Include="C#\SkinnedEffect.cs" />
+    <Compile Include="C#\SpriteEffect.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HLSL\AlphaTestEffect.fx" />
+    <None Include="HLSL\BasicEffect.fx" />
+    <None Include="HLSL\DualTextureEffect.fx" />
+    <None Include="HLSL\EnvironmentMapEffect.fx" />
+    <None Include="HLSL\SkinnedEffect.fx" />
+    <None Include="HLSL\SpriteEffect.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HLSL\Common.fxh" />
+    <None Include="HLSL\Lighting.fxh" />
+    <None Include="HLSL\Macros.fxh" />
+    <None Include="HLSL\Structures.fxh" />
+  </ItemGroup>
+  <!--<ItemGroup>
+    <EmbeddedResource Include="Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>-->
+  <ItemGroup>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+		<PreBuildEvent>
+			$(SolutionDir)\bin\$(ConfigurationName)\CompileEffect.exe Windows Reach $(ProjectDir)HLSL\BasicEffect.fx $(ProjectDir)obj\BasicEffect.bin
+			$(SolutionDir)\bin\$(ConfigurationName)\CompileEffect.exe Windows Reach $(ProjectDir)HLSL\SkinnedEffect.fx $(ProjectDir)obj\SkinnedEffect.bin
+			$(SolutionDir)\bin\$(ConfigurationName)\CompileEffect.exe Windows Reach $(ProjectDir)HLSL\EnvironmentMapEffect.fx $(ProjectDir)obj\EnvironmentMapEffect.bin
+			$(SolutionDir)\bin\$(ConfigurationName)\CompileEffect.exe Windows Reach $(ProjectDir)HLSL\DualTextureEffect.fx $(ProjectDir)obj\DualTextureEffect.bin
+			$(SolutionDir)\bin\$(ConfigurationName)\CompileEffect.exe Windows Reach $(ProjectDir)HLSL\AlphaTestEffect.fx $(ProjectDir)obj\AlphaTestEffect.bin
+			$(SolutionDir)\bin\$(ConfigurationName)\CompileEffect.exe Windows Reach $(ProjectDir)HLSL\SpriteEffect.fx $(ProjectDir)obj\SpriteEffect.bin
+		</PreBuildEvent>
+	</PropertyGroup>
+</Project>

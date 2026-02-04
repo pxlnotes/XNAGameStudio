@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowShovel", "SnowShovel\SnowShovel\SnowShovel.csproj", "{58BAFF9F-C312-4BD8-A44F-D5538527C05D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnowShovel.Content", "SnowShovel\SnowShovel.Content\SnowShovel.Content.csproj", "{3B4F430A-0681-4DFA-BC8A-C39110BF5E01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58BAFF9F-C312-4BD8-A44F-D5538527C05D}.Debug|x86.ActiveCfg = Debug|x86
+		{58BAFF9F-C312-4BD8-A44F-D5538527C05D}.Debug|x86.Build.0 = Debug|x86
+		{58BAFF9F-C312-4BD8-A44F-D5538527C05D}.Release|x86.ActiveCfg = Release|x86
+		{58BAFF9F-C312-4BD8-A44F-D5538527C05D}.Release|x86.Build.0 = Release|x86
+		{3B4F430A-0681-4DFA-BC8A-C39110BF5E01}.Debug|x86.ActiveCfg = Debug|x86
+		{3B4F430A-0681-4DFA-BC8A-C39110BF5E01}.Debug|x86.Build.0 = Debug|x86
+		{3B4F430A-0681-4DFA-BC8A-C39110BF5E01}.Release|x86.ActiveCfg = Release|x86
+		{3B4F430A-0681-4DFA-BC8A-C39110BF5E01}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A9E6FBA-EF9C-42D3-815C-15ED29F6F51E}
+	EndGlobalSection
+EndGlobal

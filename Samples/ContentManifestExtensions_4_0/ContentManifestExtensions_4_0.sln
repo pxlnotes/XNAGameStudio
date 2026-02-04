@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleGame", "SampleGame\SampleGame\SampleGame.csproj", "{38221C4F-D93E-4817-8A2B-8EB7593A834E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleGame.Content", "SampleGame\SampleGame.Content\SampleGame.Content.csproj", "{685358BC-B361-40AD-8D7F-BE4F368B0199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentManifestExtensions", "ContentManifestExtensions\ContentManifestExtensions.csproj", "{4AAC49BA-C394-4C92-A800-5BFC4332BD45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38221C4F-D93E-4817-8A2B-8EB7593A834E}.Debug|x86.ActiveCfg = Debug|x86
+		{38221C4F-D93E-4817-8A2B-8EB7593A834E}.Debug|x86.Build.0 = Debug|x86
+		{38221C4F-D93E-4817-8A2B-8EB7593A834E}.Release|x86.ActiveCfg = Release|x86
+		{38221C4F-D93E-4817-8A2B-8EB7593A834E}.Release|x86.Build.0 = Release|x86
+		{685358BC-B361-40AD-8D7F-BE4F368B0199}.Debug|x86.ActiveCfg = Debug|x86
+		{685358BC-B361-40AD-8D7F-BE4F368B0199}.Debug|x86.Build.0 = Debug|x86
+		{685358BC-B361-40AD-8D7F-BE4F368B0199}.Release|x86.ActiveCfg = Release|x86
+		{685358BC-B361-40AD-8D7F-BE4F368B0199}.Release|x86.Build.0 = Release|x86
+		{4AAC49BA-C394-4C92-A800-5BFC4332BD45}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4AAC49BA-C394-4C92-A800-5BFC4332BD45}.Debug|x86.Build.0 = Debug|Any CPU
+		{4AAC49BA-C394-4C92-A800-5BFC4332BD45}.Release|x86.ActiveCfg = Release|Any CPU
+		{4AAC49BA-C394-4C92-A800-5BFC4332BD45}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {103D412D-01C1-4C47-887A-73340F49A376}
+	EndGlobalSection
+EndGlobal
