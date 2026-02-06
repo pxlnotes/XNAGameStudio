@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratedGeometry", "GeneratedGeometry\GeneratedGeometry\GeneratedGeometry.csproj", "{BC1A5EB4-A089-479B-835C-5ABB59FC2830}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EF37345A-3BB3-498E-A2A3-F831DE78269B} = {EF37345A-3BB3-498E-A2A3-F831DE78269B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratedGeometry.Content", "GeneratedGeometry\GeneratedGeometry.Content\GeneratedGeometry.Content.csproj", "{04DC9774-554D-40F8-BF36-14838824C818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratedGeometryPipeline", "GeneratedGeometryPipeline\GeneratedGeometryPipeline.csproj", "{EF37345A-3BB3-498E-A2A3-F831DE78269B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC1A5EB4-A089-479B-835C-5ABB59FC2830}.Debug|x86.ActiveCfg = Debug|x86
+		{BC1A5EB4-A089-479B-835C-5ABB59FC2830}.Debug|x86.Build.0 = Debug|x86
+		{BC1A5EB4-A089-479B-835C-5ABB59FC2830}.Release|x86.ActiveCfg = Release|x86
+		{BC1A5EB4-A089-479B-835C-5ABB59FC2830}.Release|x86.Build.0 = Release|x86
+		{04DC9774-554D-40F8-BF36-14838824C818}.Debug|x86.ActiveCfg = Debug|x86
+		{04DC9774-554D-40F8-BF36-14838824C818}.Debug|x86.Build.0 = Debug|x86
+		{04DC9774-554D-40F8-BF36-14838824C818}.Release|x86.ActiveCfg = Release|x86
+		{04DC9774-554D-40F8-BF36-14838824C818}.Release|x86.Build.0 = Release|x86
+		{EF37345A-3BB3-498E-A2A3-F831DE78269B}.Debug|x86.ActiveCfg = Debug|x86
+		{EF37345A-3BB3-498E-A2A3-F831DE78269B}.Debug|x86.Build.0 = Debug|x86
+		{EF37345A-3BB3-498E-A2A3-F831DE78269B}.Release|x86.ActiveCfg = Debug|x86
+		{EF37345A-3BB3-498E-A2A3-F831DE78269B}.Release|x86.Build.0 = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD0B7182-81BC-4D7D-85C2-06685A78279E}
+	EndGlobalSection
+EndGlobal
